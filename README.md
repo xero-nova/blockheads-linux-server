@@ -1,4 +1,19 @@
-### Manual Install
+## Automatic Install
+Tested on Ubuntu Server 22.04
+
+1. Download Install Script:
+```wget https://raw.githubusercontent.com/xero-nova/blockheads-linux-server/main/install.sh```
+
+2. Run Install Script:
+```chmod +x ./install.sh && ./install.sh```
+
+3. Change to TheBlockheads Server Directory:
+```cd $HOME/TheBlockheads```
+
+4. Create a Blockheads Server:
+```./blockheads_server171 -help```
+
+## Manual Install
 Tested on Ubuntu Server 22.04
 
 1. Install Packages:
