@@ -1,20 +1,11 @@
 ## Automatic Install
-Tested on Ubuntu Server 22.04
+**Tested on Ubuntu Server 22.04 & WSL**
 
-1. Download Install Script:
-```wget https://raw.githubusercontent.com/xero-nova/blockheads-linux-server/main/install.sh```
-
-2. Run Install Script:
-```chmod +x ./install.sh && ./install.sh```
-
-3. Change to TheBlockheads Server Directory:
-```cd $HOME/TheBlockheads```
-
-4. Create a Blockheads Server:
-```./blockheads_server171 -help```
+**Run Install Script:**
+```bash <(curl -s https://raw.githubusercontent.com/xero-nova/blockheads-linux-server/main/install.sh)```
 
 ## Manual Install
-Tested on Ubuntu Server 22.04
+**Tested on Ubuntu Server 22.04 & WSL**
 
 1. Install Packages:
 ```sudo apt-get install libgnustep-base1.28 libdispatch0 patchelf -y```
